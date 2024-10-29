@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import aboutImg from "../../assets/images/about/aboutimg.png";
-import "../About/about.css";
+import "./about.css";
 import icons1 from "../../assets/images/icons/destination.png";
 import icons2 from "../../assets/images/icons/best-price.png";
 import icons3 from "../../assets/images/icons/quick.png";

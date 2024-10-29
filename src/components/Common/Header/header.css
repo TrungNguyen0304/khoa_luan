@@ -6,7 +6,7 @@
   left: 0;
   width: 100%;
   animation: smothScroll 1s forwards;
-  background: var(--white);
+  background: #003C71; /* Thay đổi màu nền thành #003C71 */
   z-index: 999;
   box-shadow: var(--bs-box-shadow-sm) !important;
 }
@@ -21,7 +21,7 @@
 
 .is-sticky .navbar .navbar-brand a,
 .is-sticky .navbar .offcanvas-body a {
-  color: var(--black) !important;
+  color: var(--white) !important;
 }
 
 .is-sticky .toggle_btn {
@@ -34,6 +34,7 @@ header {
   z-index: 999;
   padding: 12px 0px;
   width: 100%;
+  background-color: #003C71;
 }
 
 header .navbar .navbar-brand a {
@@ -56,7 +57,7 @@ header .navbar .offcanvas-body a {
 }
 
 header .navbar .offcanvas-body .dropdown-menu a {
-  color:black !important
+  color:white !important
 }
 
 header .navbar .offcanvas-body a:hover {
@@ -65,6 +66,7 @@ header .navbar .offcanvas-body a:hover {
 
 header .navbar .offcanvas-body .dropdown-menu {
   min-width: 12rem;
+  background-color: #003C71;
 }
 
 header .navbar .offcanvas-body .dropdown-menu .dropdown-item {
@@ -104,7 +106,6 @@ header .navbar .offcanvas-body .dropdown-menu .dropdown-item {
     padding: 12px 10px;
     color:var(--black);
   }
-
 
 
 

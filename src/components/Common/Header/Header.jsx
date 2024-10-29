@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import {
   Container,
-  Row,
   Navbar,
   Offcanvas,
   Nav,
@@ -83,7 +82,12 @@ const Header = () => {
                     id={`offcanvasNavbarDropdown-expand-lg`}
                   >
                    
-                      
+                    <NavLink className="nav-link text-dark" to="/destinations" onClick={closeMenu}>
+                    SPAIN TOURS
+                  </NavLink>
+                    <NavLink className="nav-link text-dark" to="/destinations" onClick={closeMenu}>
+                    SPAIN TOURS
+                  </NavLink>
                     <NavLink className="nav-link text-dark" to="/destinations" onClick={closeMenu}>
                     SPAIN TOURS
                   </NavLink>
@@ -100,8 +104,8 @@ const Header = () => {
               </Offcanvas.Body>
             </Navbar.Offcanvas>
             <div className="ms-md-4 ms-2">
-              <NavLink className="primaryBtn d-none d-sm-inline-block">
-                Book Now
+              <NavLink to="/login" className="primaryBtn d-none d-sm-inline-block">
+               Login
               </NavLink>
               <li className="d-inline-block d-lg-none ms-3 toggle_btn">
                 <i className={open ? "bi bi-x-lg" : "bi bi-list"}  onClick={toggleMenu}></i>
